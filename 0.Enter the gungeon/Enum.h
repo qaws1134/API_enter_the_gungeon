@@ -1,0 +1,28 @@
+#pragma once
+
+#ifndef __ENUM_H__
+#define __ENUM_H__
+
+namespace BULLET
+{
+	enum DIR { LEFT, RIGHT, UP, DOWN, END };
+}
+
+namespace OBJID
+{
+	enum ID { PLAYER, MONSTER, P_BULLET,DEL_BULLET,M_BULLET,M_EFFECTATTACK,DEL_OBJECT,EFFECT, MOUSE,UI,WEAPON, SHIELD, END };
+}
+
+namespace WEAPONID
+{
+	enum ID {OLDGUN,CROSSBOW,WAY5SHOTGUN,GUNDEADGUN,END};
+}
+
+namespace RENDERID
+{
+	enum ID {BACKGROUND,OBJECT, EFFECT,UI,END};
+}
+
+
+
+#endif // !__ENUM_H__
